@@ -22,7 +22,7 @@ Il comprend plusieurs vues interactives (catalogue produits, analyse des marques
 
 ---
 
-## 🗂️ Arborescence du projet
+## Arborescence du projet
 
 ```
 sephora-visual-analytics/
@@ -61,7 +61,7 @@ sephora-visual-analytics/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 Source : **Kaggle — All products available on Sephora website**  
 🔗 https://www.kaggle.com/datasets/raghadalharbi/all-products-available-on-sephora-website
@@ -70,7 +70,7 @@ Le dataset contient des informations sur les produits disponibles sur le site Se
 
 ---
 
-## 🛠️ Démarche
+## Démarche
 
 1. **Exploration et nettoyage** des données brutes via des notebooks Jupyter (`notebooks/`)
 2. **Enrichissement** du dataset avec des référentiels de marques et catégories (`data/helps/`)
