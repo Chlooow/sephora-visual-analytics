@@ -4,7 +4,7 @@ Projet réalisé dans le cadre de l'**UE Visualisation des données massives** �
 
 ---
 
-## 🎯 Problématique
+## Problématique
 
 > **Comment Sephora peut-elle optimiser son portefeuille de produits en s'appuyant sur la satisfaction et l'engagement client tout en renforçant son positionnement premium ?**
 
@@ -12,7 +12,7 @@ L'objectif est d'explorer les données produits du site Sephora afin d'identifie
 
 ---
 
-## 📊 Dashboard Tableau Public
+## Dashboard Tableau Public
 
 Le dashboard interactif est publié en ligne et accessible via le lien ci-dessous :
 
