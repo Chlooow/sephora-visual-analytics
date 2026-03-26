@@ -25,7 +25,7 @@
     <ZoneBackgroundTransparency />
     <ZoneFriendlyName />
   </document-format-change-manifest>
-  <repository-location derived-from='https://public.tableau.com/workbooks/Classeur1_17726676383620?rev=2.4' id='Classeur1_17726676383620' path='/workbooks' revision='3.4' />
+  <repository-location derived-from='https://public.tableau.com/workbooks/Classeur1_17726676383620?rev=2.4' id='Classeur1_17726676383620' path='/workbooks' revision='3.6' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -3119,8 +3119,6 @@
             <column caption='Brand' datatype='string' name='[brand]' role='dimension' type='nominal' />
             <column caption='Brand Status' datatype='string' name='[brand_status]' role='dimension' type='nominal' />
             <column caption='Country Founding' datatype='string' name='[country_founding]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
-            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
             <column-instance column='[brand]' derivation='None' name='[none:brand:nk]' pivot='key' type='nominal' />
             <column-instance column='[brand_status]' derivation='None' name='[none:brand_status:nk]' pivot='key' type='nominal' />
             <column-instance column='[country_founding]' derivation='None' name='[none:country_founding:nk]' pivot='key' type='nominal' />
@@ -3403,7 +3401,6 @@
             <encodings>
               <size column='[federated.12ab24t1adc3dt1gauyoq146he0z].[avg:rating:qk]' />
               <text column='[federated.12ab24t1adc3dt1gauyoq146he0z].[none:brand:nk]' />
-              <text column='[federated.12ab24t1adc3dt1gauyoq146he0z].[ctd:id:qk]' />
             </encodings>
             <customized-tooltip>
               <formatted-text>
@@ -3414,7 +3411,6 @@
                 <run bold='true'><![CDATA[<[federated.12ab24t1adc3dt1gauyoq146he0z].[avg:rating:qk]> ]]></run>
                 <run>/ 5&#10;</run>
                 <run fontcolor='#757575'>et possède </run>
-                <run bold='true'><![CDATA[<[federated.12ab24t1adc3dt1gauyoq146he0z].[ctd:id:qk]>]]></run>
                 <run> produits</run>
               </formatted-text>
             </customized-tooltip>
@@ -6982,8 +6978,8 @@ dans le pays </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2700' minheight='2700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='84' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98334' id='83' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
+            <zone h='100000' id='86' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98334' id='85' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
                 <zone forceUpdate='true' h='4896' id='6' type-v2='text' w='37643' x='5286' y='1250'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Arial'>DASHBOARD 01 - CATALOGUE</run>
@@ -7384,7 +7380,7 @@ dans le pays </run>
         <zone h='4063' id='76' type-v2='dashboard-object' w='2960' x='1008' y='23542'>
           <button action='tabdoc:goto-sheet window-id=&quot;{2114AA19-CC52-4DF2-BD79-C9BE05EA2597}&quot;'>
             <button-visual-state>
-              <image-path>Image/icons8-tableau-50 1.png</image-path>
+              <image-path>Image/icons8-tableau-50.png</image-path>
               <tooltip-text>Naviguer vers le Dashboard 1</tooltip-text>
               <format attr='background-color' value='#ffffff' />
             </button-visual-state>
@@ -7395,8 +7391,8 @@ dans le pays </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2450' minheight='2450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='80' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98334' id='79' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
+            <zone h='100000' id='82' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98334' id='81' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
                 <zone forceUpdate='true' h='4896' id='6' type-v2='text' w='37657' x='5164' y='1042'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Arial'>DASHBOARD 02 - SATISFACTION &amp; ENGAGEMENT</run>
@@ -7536,7 +7532,7 @@ dans le pays </run>
                 <zone h='4063' id='76' type-v2='dashboard-object' w='2960' x='1008' y='23542'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{2114AA19-CC52-4DF2-BD79-C9BE05EA2597}&quot;'>
                     <button-visual-state>
-                      <image-path>Image/icons8-tableau-50 1.png</image-path>
+                      <image-path>Image/icons8-tableau-50.png</image-path>
                       <tooltip-text>Naviguer vers le Dashboard 1</tooltip-text>
                       <format attr='background-color' value='#ffffff' />
                     </button-visual-state>
@@ -7761,8 +7757,8 @@ dans le pays </run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='56' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98334' id='55' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
+            <zone h='100000' id='58' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98334' id='57' param='vert' type-v2='layout-flow' w='98992' x='504' y='833'>
                 <zone forceUpdate='true' h='4896' id='14' type-v2='text' w='37613' x='5901' y='1250'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Arial'>DASHBOARD 03 - RECOMMANDATIONS</run>
@@ -7966,32 +7962,6 @@ dans le pays </run>
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{757FC2C2-2049-4C85-A93E-E1BBB9FA4450}' />
-    </dashboard>
-    <dashboard name='Histoire 1' type='storyboard'>
-      <style />
-      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
-      <zones>
-        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
-            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
-            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
-            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
-                <story-points>
-                  <story-point captured-sheet='' id='1' />
-                </story-points>
-              </flipboard>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='none' />
-            <format attr='border-width' value='0' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <simple-id uuid='{319268B4-5869-43AC-A0DB-98A2046DEB71}' />
     </dashboard>
   </dashboards>
   <windows source-height='44'>
@@ -8725,7 +8695,7 @@ dans le pays </run>
       </viewpoint>
       <simple-id uuid='{72471F97-27CD-494A-9DD0-D2A14B787477}' />
     </window>
-    <window class='worksheet' name='F20 : Top 3 des marques les plus aimées'>
+    <window class='worksheet' maximized='true' name='F20 : Top 3 des marques les plus aimées'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -9053,7 +9023,7 @@ dans le pays </run>
       <device-preview selected='Desktop' />
       <simple-id uuid='{967671DA-3781-4462-8479-4882516CFFA0}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 02 - Satisfaction &amp; Engagement '>
+    <window class='dashboard' name='Dashboard 02 - Satisfaction &amp; Engagement '>
       <viewpoints>
         <viewpoint name='F11 : Quel segment de prix a le plus de like ?'>
           <zoom type='entire-view' />
@@ -9106,13 +9076,8 @@ dans le pays </run>
         </viewpoint>
         <viewpoint name='KPI13 : Exclusivités bien notées' />
       </viewpoints>
-      <active id='12' />
+      <active id='43' />
       <simple-id uuid='{2114AA19-CC52-4DF2-BD79-C9BE05EA2597}' />
-    </window>
-    <window class='dashboard' name='Histoire 1'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{F134E0C1-0FEB-4A3D-B206-99F2D8E56672}' />
     </window>
   </windows>
 </workbook>
